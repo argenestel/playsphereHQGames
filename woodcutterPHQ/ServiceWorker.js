@@ -1,9 +1,9 @@
 const cacheName = "DefaultCompany-woodcutter-1.0";
 const contentToCache = [
     "Build/woodcutterPHQ.loader.js",
-    "Build/woodcutterPHQ.framework.js.gz",
-    "Build/woodcutterPHQ.data.gz",
-    "Build/woodcutterPHQ.wasm.gz",
+    "Build/woodcutterPHQ.framework.js.br",
+    "Build/woodcutterPHQ.data.br",
+    "Build/woodcutterPHQ.wasm.br",
     "TemplateData/style.css"
 
 ];
