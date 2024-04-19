@@ -1,6 +1,6 @@
-  "headers": [
+{  "headers": [
     {
-      "source": "/(.*\\.unityweb)",
+      "source": "*/(.*\\.unityweb)",
       "headers" : [
         {
           "key" : "Content-Encoding",
@@ -9,7 +9,7 @@
       ]
     },
     {
-      "source": "/(.*\\.wasm\\.unityweb)",
+      "source": "*/(.*\\.wasm\\.unityweb)",
       "headers" : [
         {
           "key" : "Content-Type",
@@ -18,7 +18,7 @@
       ]
     },
     {
-      "source": "/(.*\\.gz)",
+      "source": "*/(.*\\.gz)",
       "headers" : [
         {
           "key" : "Content-Encoding",
@@ -27,7 +27,7 @@
       ]
     },
     {
-      "source": "/(.*\\.wasm\\.gz)",
+      "source": "*/(.*\\.wasm\\.gz)",
       "headers" : [
         {
           "key" : "Content-Type",
@@ -36,7 +36,7 @@
       ]
     },
     {
-      "source": "/(.*\\.br)",
+      "source": "*/(.*\\.br)",
       "headers" : [
         {
           "key" : "Content-Encoding",
@@ -45,7 +45,7 @@
       ]
     },
     {
-      "source": "/(.*\\.wasm\\.br)",
+      "source": "*/(.*\\.wasm\\.br)",
       "headers" : [
         {
           "key" : "Content-Type",
@@ -54,3 +54,5 @@
       ]
     }
   ]
+
+}
